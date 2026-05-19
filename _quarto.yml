@@ -1,0 +1,109 @@
+project:
+  type: book
+  output-dir: _book
+  resources:
+    - images/
+
+book:
+  title: "Stata MCP 实战指南"
+  subtitle: "AI 赋能 Stata 学术应用"
+  author:
+    - name: "计量经济网"
+      affiliation: "计量经济学服务中心"
+  date: "2026-05-18"
+  date-format: iso
+  description: "本讲义系统介绍了 Stata MCP 的安装、配置与高级应用，AI 赋能 Stata 学术研究"
+  publisher: "计量经济学服务中心"
+
+  cover-image: images/cover.png
+  favicon: images/favicon.ico
+  reader-mode: true
+
+  chapters:
+    - index.qmd
+
+    - part: "**第一部分：基础入门**"
+      chapters:
+        - intro.qmd
+        - install.qmd
+        - basic-usage.qmd
+
+    - part: "**第二部分：AI 助手集成**"
+      chapters:
+        - ai-setup.qmd
+        - advanced-features.qmd
+
+    - part: "**第三部分：高级应用**"
+      chapters:
+        - academic-applications.qmd
+        - troubleshooting.qmd
+
+    - part: "**第四部分：参考附录**"
+      chapters:
+        - technical-architecture.qmd
+        - appendix.qmd
+
+  sidebar:
+    title: "2026学术直播"
+    subtitle: "Stata MCP 实战指南"
+    logo: images/book-logo.png
+    logo-href: https://www.aistata.cn/
+    style: docked
+    collapse-level: 6
+    search: true
+    search-placeholder: "搜索内容..."
+    progress-bar: true
+    tools:
+      - icon: github
+        href: https://www.aistata.cn/
+    footer: "© 2026 数量经济学. 保留所有权利."
+
+  downloads: [pdf, epub]
+  sharing: [twitter, facebook]
+
+  site-url: https://www.aistata.cn/
+  editor: source
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    toc-depth: 3
+    linestretch: 1.7
+    fontsize: 12pt
+    number-sections: false
+    link-external-newwindow: true
+    highlight: true
+    highlight-style: atom-one
+    code-fold: false
+    code-line-numbers: false
+    code-overflow: wrap
+    callout-appearance: default
+    smooth-scroll: true
+
+  pdf:
+    documentclass: scrbook
+    classoption:
+      - oneside
+    geometry:
+      - top=2.5cm
+      - bottom=2.5cm
+      - left=3cm
+      - right=2.5cm
+    fontfamily: "mathpazo"
+    linestretch: 1.5
+    toc: true
+    toc-depth: 3
+    number-sections: true
+
+execute:
+  enabled: true
+  echo: true
+  warning: false
+  error: false
+  cache: false
+
+editor:
+  type: visual

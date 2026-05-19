@@ -1,0 +1,32 @@
+{
+  "index.qmd": {
+    "index.html": "9fc6dcea"
+  },
+  "intro.qmd": {
+    "intro.html": "47475aba"
+  },
+  "install.qmd": {
+    "install.html": "e37957de"
+  },
+  "basic-usage.qmd": {
+    "basic-usage.html": "5ae73669"
+  },
+  "ai-setup.qmd": {
+    "ai-setup.html": "a38470e2"
+  },
+  "advanced-features.qmd": {
+    "advanced-features.html": "b4cda5aa"
+  },
+  "academic-applications.qmd": {
+    "academic-applications.html": "a7f74c16"
+  },
+  "troubleshooting.qmd": {
+    "troubleshooting.html": "f88ee2dd"
+  },
+  "technical-architecture.qmd": {
+    "technical-architecture.html": "84f2c51b"
+  },
+  "appendix.qmd": {
+    "appendix.html": "43056bc9"
+  }
+}
